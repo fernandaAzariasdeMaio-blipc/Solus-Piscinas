@@ -3521,3 +3521,148 @@ html, body {
   }
 
 }
+
+/* =================================================
+   SERVIÇOS — MOBILE RESPONSIVO REAL
+================================================= */
+
+@media (max-width:768px){
+
+  .sb-layout{
+    display:flex !important;
+    flex-direction:column !important;
+
+    gap:42px;
+
+    width:100%;
+
+    padding:0 20px !important;
+  }
+
+  /* LEFT */
+
+  .sb-left{
+    width:100%;
+
+    padding-top:72px;
+
+    overflow:hidden;
+  }
+
+  .service-number{
+    font-size:4.8rem;
+
+    top:0;
+    left:0;
+
+    line-height:1;
+
+    opacity:.18;
+  }
+
+  .sb-left h3{
+    font-size:2.2rem !important;
+
+    line-height:1.02;
+
+    margin-bottom:14px;
+
+    max-width:100%;
+  }
+
+  .sb-left h3 em{
+    font-size:1.8rem !important;
+
+    display:block;
+
+    margin-top:6px;
+  }
+
+  .sb-lead{
+    font-size:1rem !important;
+
+    line-height:1.75;
+
+    max-width:100%;
+
+    margin-bottom:24px;
+  }
+
+  /* CARD LISTA */
+
+  .service-card{
+    width:100% !important;
+    max-width:100% !important;
+
+    padding:26px 22px !important;
+
+    margin:0 !important;
+
+    border-radius:24px;
+  }
+
+  .service-list{
+    gap:20px;
+  }
+
+  .service-list li{
+    font-size:1rem !important;
+
+    line-height:1.5;
+
+    align-items:flex-start;
+  }
+
+  .service-list li::before{
+    margin-top:2px;
+  }
+
+  /* RIGHT */
+
+  .sb-right{
+    width:100%;
+
+    align-items:center;
+
+    margin-top:0 !important;
+
+    gap:22px;
+  }
+
+  /* IMAGEM */
+
+  .sb-visual{
+    width:100% !important;
+    max-width:100% !important;
+
+    aspect-ratio:1 / 1;
+
+    border-radius:24px;
+  }
+
+  .sb-visual-img{
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    border-radius:24px;
+  }
+
+  /* BOTÃO */
+
+  .sb-cta{
+    width:100%;
+
+    min-width:0;
+
+    height:56px;
+
+    font-size:1rem;
+
+    padding:0 22px;
+
+    border-radius:999px;
+  }
+
+}
